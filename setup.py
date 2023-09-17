@@ -21,7 +21,7 @@ setup(
     tests_require=["pytest"],
     entry_points={
         "console_scripts": [
-            "fib_number = fib_py.cmd.fib_numb:fib_numb",
+            "fib-number = fib_py.cmd.fib_numb:fib_numb",
         ]
     },
 )

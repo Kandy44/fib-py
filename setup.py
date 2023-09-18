@@ -1,7 +1,7 @@
 from setuptools import find_packages, setup
 
 setup(
-    name="fib_py",
+    name="fib_py_nkandy44",
     version="0.0.1",
     author="Nadiminty Kaundinya",
     author_email="nkandy44@gmail.com",
@@ -14,7 +14,7 @@ setup(
     packages=find_packages(exclude=("tests",)),
     classifiers=[
         "Development Status :: 4 - Beta",
-        "Programming Langugage :: Python :: 3",
+        "Programming Language :: Python :: 3",
         "Operating System :: OS Independent",
     ],
     python_requires=">=3",

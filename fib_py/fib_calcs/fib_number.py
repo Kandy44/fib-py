@@ -3,7 +3,7 @@ from typing import Optional
 
 def iter_fib_number(n: int) -> Optional[int]:
     if n < 0:
-        return None
+        raise ValueError("Fibonacci has to be equal or above zero")
     elif n <= 1:
         return n
     else:
